@@ -1,0 +1,523 @@
+body {
+  color: #e5e7eb;
+  background:radial-gradient(circle at top, #1e293b 0, #020617 55%, #000 100%);
+  /*background-color: ;*/
+  background-size: 100%;
+  font-family: system-ui, -abble-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-align: top ; 
+  background-image: url("Farbverlauf2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+
+.p1 {
+  text-align:center;
+  font-weight: bold;
+}
+
+.p2 {
+  font-size:  28px;
+  text-align:center;
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+li {
+  padding-bottom: 10px;
+  text-align:center;
+  font-size:20pt;
+  list-style-position:inside;
+}
+
+
+
+h1 {
+  color:black;
+  text-align: center;
+  font-size: 59px;
+  background-color:rgb(255, 255, 255);
+  
+  
+}
+
+h2 {
+  text-align: center;
+  padding-top: 29px;
+  font-size: 50px;
+}
+
+
+.btn-12 {
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 91%;
+  margin-top: 1%;
+}
+
+.btn-12:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  background : #fff;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+
+.btn-12:hover:before {
+  width: 100%;
+  left:0;
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    
+    
+   
+}
+
+table{
+
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.pARed {
+  color: rgb(129, 0, 0);
+  padding-bottom: 10px;
+  text-align:center;
+  font-size:25pt;
+  list-style-position:inside;
+  margin-bottom: -10px;
+  margin-top: -10px;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: -35px;
+}
+
+.pTopic {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 29px;
+  font-size: 50px;
+  margin-top: -30px;
+  margin-bottom: -5px;
+}
+
+.pTopic2 {
+  text-align: center;
+  padding-top: 29px;
+  font-size: 50px;
+  margin-top: -18px;
+  margin-bottom: -5px;
+}
+
+.pTopic3 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 29px;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.btn-13 {
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 90.5%;
+  margin-top: -5%;
+}
+
+.btn-13:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  background : #fff;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+
+.btn-13:hover:before {
+  width: 100%;
+  left:0;
+}
+
+.btn-14 {
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 85%;
+  margin-top: -15px;
+}
+
+.btn-14:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  background : #fff;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+
+.btn-14:hover:before {
+  width: 100%;
+  left:0;
+}
+
+.pOrigin{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 29px;
+  font-size: 40px;
+  margin-top: -38px;
+  margin-bottom: 20px;
+}
+
+
+.pBookOrigin{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 29px;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-top: -10px; 
+  margin-bottom: 20px;
+}
+
+.pDevelopment{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 29px;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-top: -10px;
+  margin-bottom: 20px; 
+}
+
+.SourceHistory{
+color: #696969;
+font-size: 10px;
+}
+
+.SourcePresent{
+color: #696969;
+font-size: 10px;
+margin-top: 8px;
+}
+
+.pTvL {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 0px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px; 
+}
+
+.pMarktA {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 0px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px; 
+}
+
+.pColorConf{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 0px;
+  font-size: 30px;
+  margin-top: -35px;
+  margin-bottom: 25px; 
+}
+
+
+.btn-15 {
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 87.5%;
+  margin-top: -5%;
+}
+
+.btn-15:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  background : #fff;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+
+.btn-15:hover:before {
+  width: 100%;
+  left:0;
+}
+
+.pGreetEnd{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-size: 59px;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  white-space: nowrap; 
+}
+
+.btn-Menu {
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 90%;
+  margin-top: 44.5%;
+}
+
+.btn-Menu:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  background : #fff;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+
+.btn-Menu:hover:before {
+  width: 100%;
+  left:0;
+}
+
+#Druckerarten{
+width:auto;
+margin-left: auto;
+margin-right: auto;
+/*margin-top:   ;*/
+border-spacing: 25px;
+font-size: 30px;
+border:thin solid;
+border-collapse: collapse;
+}
+
+ul{
+  font-weight: normal;
+}
+
+hr{
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+
+}
+
+
+/*.btn-MenuC {
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 00px;
+  margin-top: -35px;
+  /*font-weight: bold;*/
+  /*border: none;
+  background: transparent;
+  outline: none;
+}
+
+.btn-MenuC:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  background : #fff;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+
+.btn-MenuC:hover:before {
+  width: 100%;
+  left:0;
+}
+*/
+
+button{
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 00px;
+  margin-top: -35px;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  outline: none;
+  /**/
+  color: wheat;
+  bottom: 0;
+  margin-bottom: -10%   ;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: center;  
+  gap: 30px;                 
+  flex-wrap: wrap;           
+}
+
+.btn-menu {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-menu:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+  opacity: 0.7;
+}
+
+.btn-menu:hover::before {
+  width: 100%;
+}
+
+.btn-16 {
+  text-align: center;
+  
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin-left: 88%;
+  margin-top: 8%;
+  /*font-weight: bold;*/
+}
+
+.btn-16:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  background : #fff;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+
+.btn-16:hover:before {
+  width: 100%;
+  left:0;
+}
+
+.DruckerF {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/**/
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap; 
+}
+
+.info-box {
+    background-color: #111;
+    color: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-8px);
+}
+
+.info-box h2 {
+    margin-bottom: 15px;
+}

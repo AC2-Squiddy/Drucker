@@ -5,7 +5,7 @@ body {
   background-size: 100%;
   font-family: system-ui, -abble-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   text-align: top ; 
-  background-image: url("Farbverlauf2.png");
+  background-image: url("https://raw.githubusercontent.com/AC2-Squiddy/Drucker/refs/heads/main/css/Farbverlauf2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
